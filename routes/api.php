@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//Route::resource("tasks",\App\Http\Controllers\TaskController::class);
+Route::get('/tasks', [\App\Http\Controllers\TaskController::class, 'index']);
+Route::prefix('/task')->group(function(){
+    Route::post('/store',[\App\Http\Controllers\TaskController::class, 'store']);
+    Route::put('/{id}' , [\App\Http\Controllers\TaskController::class, 'update']);
+    Route::delete('/{id}', [\App\Http\Controllers\TaskController::class, 'destroy'] );
+    Route::post('/', [\App\Http\Controllers\TaskController::class, 'destroy'] );
+});
