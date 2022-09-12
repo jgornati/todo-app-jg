@@ -39,6 +39,6 @@ $  ./vendor/bin/sail artisan test --filter=TaskTest
 Pendientes
 
 - [ ] Hacer validaciones
-- [ ] Mejorar responsive
+- [X] Mejorar responsive
 - [ ] Hacer loaders
 

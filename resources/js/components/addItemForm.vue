@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5">
-        <form class="input-group w-50 m-auto" @submit.prevent="addItem()">
+        <form class="input-group m-auto" @submit.prevent="addItem()">
             <input type="text"
                    class="form-control"
                    placeholder="Agregar item"

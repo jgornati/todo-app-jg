@@ -1,5 +1,5 @@
 <template>
-    <div v-if="tasks.length > 0" class="mt-4 mb-1 w-50 m-auto flex justify-content-between">
+    <div v-if="tasks.length > 0" class="mt-4 mb-1 w-100 m-auto flex justify-content-between">
         <button v-if="!!show" class="btn btn-outline-danger" @click="deleteAll()">
             🗑 &nbsp;Borrar todo
         </button>

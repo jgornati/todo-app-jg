@@ -1,5 +1,5 @@
 <template>
-    <div class="container w-100 m-auto text-center mt-3">
+    <div class="container col-xs-12 col-sm-12 col-md-6 m-auto text-center mt-3">
         <h1>Laravel-Vue ToDo</h1>
         <add-item-form v-on:reloadlist="getTasks()"/>
         <p v-if="tasks.length <= 0" class="mt-5">

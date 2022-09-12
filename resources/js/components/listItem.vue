@@ -1,5 +1,5 @@
 <template>
-    <li class="list-group-item d-flex align-items-center justify-content-between w-50">
+    <li class="list-group-item d-flex align-items-center justify-content-between w-100">
         <input
             type="checkbox"
             @change="handleCompleteTask()"
