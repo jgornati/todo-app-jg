@@ -16,7 +16,7 @@
         </span>
         <button v-if="!!select" class="btn btn-danger" @click="removeTask()">X</button>
         <button v-if="!select" class="btn btn-outline-primary" @click="selectTask()"
-                style="min-width: 37px;min-height: 37px;">
+                style="min-width: 37px;min-height: 38px;">
             {{ task.deleted === true ? "✓" : "" }}
         </button>
     </li>
