@@ -1,6 +1,6 @@
 # TODO List
 
-WebApp de tarea hecha con Laravel y Vue
+WebApp de tareas hecha con Laravel y Vue
 ![alt Imagen del navegador con el proyecto corriendo](docs/proyecto_foto.png "Todo App")
 
 ### Setup para desarrollo
